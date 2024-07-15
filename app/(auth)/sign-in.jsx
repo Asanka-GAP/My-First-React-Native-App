@@ -24,7 +24,7 @@ const submit = async () => {
   setisSubmitting(true);
 
   try {
-    signIn(form.email,form.password);
+    await signIn(form.email,form.password);
 
   router.replace('/home')
   } catch (error) {
