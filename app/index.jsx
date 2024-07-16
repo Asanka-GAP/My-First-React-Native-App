@@ -19,7 +19,7 @@ export default function App() {
         }}
       >
         <View
-          className="w-full justify-center 
+          className="w-full justify-center
         items-center min-h-[85vh] px-4"
         >
           <Image
